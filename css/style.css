@@ -8,20 +8,35 @@ body {
 .eventos {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     background-color: #fff5f5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+    justify-content: space-between;
+    border: 1px solid #000;
+ 
+   
+    
 }
 
 .formulario {
-    margin-bottom: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dac2ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
 }
 
 input[type="text"],
 input[type="date"] {
-    width: 100%;
-    padding: 10px;
+    width: 80%;
+    padding: 20px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 2rem;
@@ -29,7 +44,7 @@ input[type="date"] {
 }
 
 input[type="submit"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -55,23 +70,37 @@ input[type="submit"]:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     border-radius: 2rem;
+    border: 1px solid #000;
+    
+   
     
 }
 
 .evento {
-    margin-bottom: 20px;
-    justify-content: center;
-    text-align: right;
-
-    
-
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6131af;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-around; /* Distribuye los elementos uniformemente horizontalmente */
+    border: 1px solid #000;
 }
+
 
 .dias {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: left;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
 }
 
 .eliminar {
@@ -79,15 +108,24 @@ input[type="submit"]:hover {
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px ;
     cursor: pointer;
     font-size: 14px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     
+   
     
 }
 
 .eliminar:hover {
     background-color: #cc0000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
     
 }
+
 
